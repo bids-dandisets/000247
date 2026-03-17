@@ -2,7 +2,7 @@
 		SourceDatasets
 		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
 Valid keys in each object include `"URL"`, `"DOI"` (see
-[URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)), and
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
@@ -258,11 +258,11 @@ For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond t
 		192 more files with the same issue
 
 		CogAtlasID
-		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002/ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002_ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002/ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002_ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
-		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013/ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013_ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013/ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013_ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
@@ -270,10 +270,10 @@ Task term.
 		192 more files with the same issue
 
 		CogPOID
-		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002/ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002_ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002/ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5002_ses-2019+08+29+0000+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
-		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013/ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013_ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013/ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb/ecephys/sub-oviDNSS1+driving+GCaMP7f+++CsChrimson+fly+ID+5013_ses-2019+09+06+0003+oviDNSS1+GCaMP7f+CsChrimson+manualstim+nwb_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
 
@@ -329,3 +329,4 @@ in which its parameters are defined as key-value pairs
           513 Files, 49.3 kB                                           microephys           
           158 - Subjects 194 - Sessions                                                     
 
+	If you have any questions, please post on https://neurostars.org/tags/bids.
